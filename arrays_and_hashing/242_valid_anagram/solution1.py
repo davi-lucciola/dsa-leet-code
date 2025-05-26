@@ -1,4 +1,4 @@
-# Time Complexity: O(s + t)
+# Time Complexity: O(s + t) - Because of .count function
 # Space Complexity: O(1) - Because we have a max length of 26 characters
 
 class Solution:

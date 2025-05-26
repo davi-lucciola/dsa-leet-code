@@ -1,3 +1,6 @@
+# Time Complexity: O(s + t)
+# Space Complexity: O(1) - Because we have a max length of 26 characters
+
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
@@ -9,4 +12,4 @@ class Solution:
                 return False
         
         return True
-        
+    

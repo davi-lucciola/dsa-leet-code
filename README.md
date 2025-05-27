@@ -17,3 +17,19 @@ Reference Courses:
 - [ ] Trees
 - [ ] Heap / Priority Queue
 - [ ] Graphs
+
+
+### Algorithms
+
+#### Two Pointers
+
+The "two pointers" algorithm consists in use two variables to iterate the array in most eficient way depending on the problem. Here is the most common approachs:
+
+1. Converging Pointers
+> One pointer in left and other in right moving inversed
+
+2. Paralellel Pointers
+> Both pointers start in the same index, and move in the same direction
+
+3. Trigger Based Pointers
+> Both pointers start in the same index, but one of the pointers start to iterate first, and when we find a certain contition we init the iteration with the other.
